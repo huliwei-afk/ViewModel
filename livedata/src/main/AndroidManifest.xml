@@ -9,11 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ViewModel">
-        <activity android:name=".expandLiveData.ExpandActivity"></activity>
         <activity android:name=".mediatorLiveData.MediatorActivity" />
         <activity android:name=".transformLiveData.SwitchActivity" />
         <activity android:name=".transformLiveData.TransformActivity" />
         <activity android:name=".DataActivity">
+
+        </activity>
+        <activity android:name=".seekLive.SeekActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
